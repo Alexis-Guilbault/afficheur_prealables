@@ -1,3 +1,9 @@
+body {
+    background-color: #1e2129;
+    color: #fff;
+    font-family: 'roboto';
+}
+
 .liste-cours {
     display: flex;
     gap: 15px;
@@ -11,7 +17,7 @@
         > p {
             border-style: solid;
             border-width: 5px;
-            border-color: #000000;
+            border-color: #fff;
             padding: 5px;
             width: 100%;
             height: 10vh;
@@ -23,14 +29,34 @@
     }
 }
 
+h1 {
+    font-size: 5vw;
+    color: #ea3343;
+}
+
+h2 {
+    font-size: 2.75vw;
+    color: #ea3343;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+li {
+    font-size: clamp(14px, 1vw, 48px);
+}
+
 .pa-indirect {
     background-color: #ffcc00 !important;
+    color: #000;
 }
 .pa-direct {
     background-color: #ff6600 !important;
 }
 .cr {
     background-color: #ffff00 !important;
+    color: #000;
 }
 .choisi {
     background-color: #ff0000 !important;
